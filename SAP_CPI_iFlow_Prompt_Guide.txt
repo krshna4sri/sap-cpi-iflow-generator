@@ -1,0 +1,110 @@
+SAP CPI iFlow Generator - Supported Prompt Guide
+
+This document lists all supported prompts that the SAP CPI iFlow
+Generator application can successfully process.
+
+  ------------------------------------------------------------
+  1. GET iFlow Prompts
+  ------------------------------------------------------------
+  GET iFlow for Purchase Orders GET iFlow for Sales Orders GET
+  iFlow for Business Partner GET iFlow for Material GET iFlow
+  for Project GET iFlow for Supplier Invoice GET iFlow for
+  Work Order GET iFlow for Journal Entry GET iFlow for Company
+  Code GET iFlow for A_PurchaseOrder GET iFlow for
+  A_SalesOrder GET iFlow for A_Product GET iFlow for
+  A_BusinessPartner GET iFlow for A_WorkPackage
+
+  ------------------------------------------------------------
+
+2. POST / CREATE iFlow Prompts
+
+POST iFlow to create Purchase Order POST iFlow for Sales Order POST
+iFlow to create Business Partner POST iFlow to create Material POST
+iFlow to create Project POST iFlow for Supplier Invoice POST iFlow to
+create Work Order Create iFlow for Purchase Order Create iFlow for
+Business Partner Create iFlow for Material Create iFlow for Sales Order
+Create iFlow for Project
+
+  ------------------------------------------------------------
+  3. PUT / UPDATE iFlow Prompts
+  ------------------------------------------------------------
+  PUT iFlow to update Purchase Order PUT iFlow to update Sales
+  Order PUT iFlow to update Business Partner PUT iFlow to
+  update Material PUT iFlow to update Project PATCH iFlow to
+  update Purchase Order Update iFlow for Sales Order Update
+  iFlow for Business Partner Modify iFlow for Purchase Order
+  Modify iFlow for Project
+
+  ------------------------------------------------------------
+
+4. DELETE iFlow Prompts
+
+DELETE iFlow for Purchase Order DELETE iFlow for Sales Order DELETE
+iFlow for Business Partner DELETE iFlow for Material DELETE iFlow for
+Project Remove iFlow for Purchase Order Delete iFlow for Sales Order
+Delete iFlow for Business Partner
+
+  ------------------------------------------------------------
+  5. Groovy Script Prompts
+  ------------------------------------------------------------
+  GET iFlow for Purchase Orders with Groovy POST iFlow for
+  Sales Order with Groovy GET iFlow for Business Partner with
+  script POST iFlow with Groovy GET iFlow with transform
+  script GET iFlow with mapping script GET iFlow with filter
+  script
+
+  ------------------------------------------------------------
+
+6. Sender Path Prompts
+
+GET iFlow for Purchase Orders /PurchaseOrder/Get POST iFlow for Sales
+Order /SalesOrder/Create GET iFlow for Business Partner /BP/Get
+
+  ------------------------------------------------------------
+  7. OData URL Prompts
+  ------------------------------------------------------------
+  GET iFlow for Purchase Orders https://host/API POST iFlow
+  https://host/API GET iFlow https://host/API
+
+  ------------------------------------------------------------
+
+8. Custom iFlow Name Prompts
+
+GET iFlow for Purchase Orders “Purchase Order Fetch” POST iFlow for
+Sales Order “Create Sales Order Flow” GET iFlow for Business Partner “BP
+Flow”
+
+  ------------------------------------------------------------
+  9. Smartapp ONE Package Prompts
+  ------------------------------------------------------------
+  Generate New Smartapp ONE Package Generate Smartapp ONE
+  Package Smartapp ONE Package Generate Package for Smartapp
+  ONE Create Smartapp ONE Package Build Smartapp ONE Package
+
+  ------------------------------------------------------------
+
+10. Smartapp ONE Hostname & Credential Prompts
+
+Generate New Smartapp ONE Package Hostname: myhost Credential: cred
+
+Generate New Smartapp ONE Package Hostname: myhost Credential: cred
+
+Generate New Smartapp ONE Package Old Hostname: oldhost New Hostname:
+newhost Old Credential: oldcred New Credential: newcred
+
+  ------------------------------------------------------------
+  11. Natural Language Prompts
+  ------------------------------------------------------------
+  Create a GET iFlow for Purchase Orders Build POST iFlow for
+  Business Partner Generate iFlow to fetch Sales Orders Create
+  integration flow for Purchase Orders Generate integration
+  for Business Partner Create flow for Material Build
+  integration for Project
+
+  ------------------------------------------------------------
+
+Recommended Prompts
+
+GET iFlow for Purchase Orders POST iFlow to create Sales Order PUT iFlow
+to update Business Partner DELETE iFlow for A_PurchaseOrder GET iFlow
+for Purchase Orders with Groovy Generate New Smartapp ONE Package
